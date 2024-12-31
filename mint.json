@@ -80,6 +80,7 @@
     {
       "group": "Thông tin thanh toán",
       "pages": [
+        "payment/credit-system",
         "payment/payment-packages",
         "payment/affiliate-program",
         "payment/partner-program"
