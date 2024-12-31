@@ -49,8 +49,15 @@
         {
           "group": "Tạo nội dung",
           "pages": [
-            "usage/create-content/create-content",
-            "usage/create-content/refine-content"
+            {
+              "group": "Viết và kiểm tra nội dung",
+              "pages": [
+                "usage/create-content/rewrite-content",
+                "usage/create-content/keep-content"
+              ]
+            },
+            "usage/create-content/refine-content",
+            "usage/create-content/review-configuration"
           ]
         },
         "usage/review-character",
