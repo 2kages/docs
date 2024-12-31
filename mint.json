@@ -88,8 +88,8 @@
     {
       "group": "Chương trình đối tác",
       "pages": [
-        "payment/affiliate-program",
-        "payment/partner-program"
+        "partners/affiliate-program",
+        "partners/agent-program"
       ]
     },
     {
