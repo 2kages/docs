@@ -105,5 +105,8 @@
   "footerSocials": {
     "facebook": "https://www.facebook.com/profile.php?id=61570945504404",
     "linkedin": "https://www.linkedin.com/company/vipro-studio/"
+  },
+  "feedback": {
+    "thumbsRating": true
   }
 }
