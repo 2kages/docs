@@ -78,10 +78,16 @@
       ]
     },
     {
-      "group": "Thông tin thanh toán",
+      "group": "Thanh toán",
       "pages": [
         "payment/credit-system",
         "payment/payment-packages",
+        "payment/check"
+      ]
+    },
+    {
+      "group": "Chương trình đối tác",
+      "pages": [
         "payment/affiliate-program",
         "payment/partner-program"
       ]
