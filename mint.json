@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Hướng dẫn sủ dụng Vipro Studio",
   "logo": {
     "dark": "/logo/logo.png",
     "light": "/logo/logo.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/logo.png",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
@@ -29,22 +29,60 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Giới thiệu chung",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        {
+          "group": "Vipro Studio",
+          "pages": [
+            "introduction/vipro-studio/introduction",
+            "introduction/vipro-studio/webapp",
+            "introduction/vipro-studio/app"
+          ]
+        },
+        "introduction/credit-system",
+        "introduction/custom-workflow"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Hướng dẫn sử dụng",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        {
+          "group": "Tạo nội dung",
+          "pages": [
+            "usage/create-content/create-content",
+            "usage/create-content/refine-content"
+          ]
+        },
+        "usage/review-character",
+        {
+          "group": "Chỉnh sửa video",
+          "pages": [
+            "usage/video-editor/edit-scene",
+            "usage/video-editor/edit-caption",
+            "usage/video-editor/edit-background-music",
+            "usage/video-editor/edit-video-effect",
+            "usage/video-editor/edit-watermark",
+            "usage/video-editor/calculate-video-cost",
+            "usage/video-editor/regenerate-media"
+          ]
+        },
+        {
+          "group": "Đăng tải video",
+          "pages": [
+            "usage/publish-video/export-video",
+            "usage/publish-video/publish-youtube",
+            "usage/publish-video/publish-tiktok",
+            "usage/publish-video/thumbnail-editor"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Thông tin thanh toán",
+      "pages": [
+        "payment/payment-packages",
+        "payment/affiliate-program",
+        "payment/partner-program"
       ]
     }
   ],
