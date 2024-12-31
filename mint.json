@@ -85,6 +85,15 @@
         "payment/affiliate-program",
         "payment/partner-program"
       ]
+    },
+    {
+      "group": "Video hướng dẫn",
+      "pages": [
+        "video-tutorial/full-quick-workflow",
+        "video-tutorial/download-vipro-pc-to-export-video",
+        "video-tutorial/create-stock-video",
+        "video-tutorial/create-animation-video"
+      ]
     }
   ],
   "footerSocials": {
