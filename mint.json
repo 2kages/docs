@@ -64,7 +64,13 @@
         {
           "group": "Chỉnh sửa video",
           "pages": [
-            "usage/video-editor/edit-scene",
+            {
+              "group": "Chỉnh sửa phân cảnh",
+              "pages": [
+                "usage/video-editor/edit-scene/image",
+                "usage/video-editor/edit-scene/video"
+              ]
+            },
             "usage/video-editor/edit-caption",
             "usage/video-editor/edit-background-music",
             "usage/video-editor/edit-video-effect",
@@ -96,10 +102,7 @@
     },
     {
       "group": "Chương trình đối tác",
-      "pages": [
-        "partners/affiliate-program",
-        "partners/agent-program"
-      ]
+      "pages": ["partners/affiliate-program", "partners/agent-program"]
     },
     {
       "group": "Video hướng dẫn",
