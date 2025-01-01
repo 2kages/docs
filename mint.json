@@ -64,6 +64,7 @@
             "usage/video-editor/edit-video-transition",
             "usage/video-editor/edit-watermark",
             "usage/video-editor/calculate-video-cost",
+            "usage/video-editor/video-info",
             "usage/video-editor/regenerate-media"
           ]
         },
@@ -79,16 +80,35 @@
       ]
     },
     {
-      "group": "Thông tin thanh toán",
+      "group": "Thanh toán",
       "pages": [
+        "payment/credit-system",
         "payment/payment-packages",
-        "payment/affiliate-program",
-        "payment/partner-program"
+        "payment/check"
+      ]
+    },
+    {
+      "group": "Chương trình đối tác",
+      "pages": [
+        "partners/affiliate-program",
+        "partners/agent-program"
+      ]
+    },
+    {
+      "group": "Video hướng dẫn",
+      "pages": [
+        "video-tutorial/full-quick-workflow",
+        "video-tutorial/download-vipro-pc-to-export-video",
+        "video-tutorial/create-stock-video",
+        "video-tutorial/create-animation-video"
       ]
     }
   ],
   "footerSocials": {
     "facebook": "https://www.facebook.com/profile.php?id=61570945504404",
     "linkedin": "https://www.linkedin.com/company/vipro-studio/"
+  },
+  "feedback": {
+    "thumbsRating": true
   }
 }
