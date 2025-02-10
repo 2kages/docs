@@ -46,6 +46,7 @@
     {
       "group": "Hướng dẫn sử dụng",
       "pages": [
+        "usage/clone-a-video",
         {
           "group": "Tạo nội dung",
           "pages": [
