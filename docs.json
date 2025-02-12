@@ -1,0 +1,214 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Vipro Studio Documentation",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373"
+  },
+  "favicon": "/logo/logo.png",
+  "navigation": {
+    "versions": [
+      {
+        "version": "English",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              {
+                "group": "Vipro Studio",
+                "pages": [
+                  "en/introduction/vipro-studio/introduction",
+                  "en/introduction/vipro-studio/webapp",
+                  "en/introduction/vipro-studio/app"
+                ]
+              },
+              "en/introduction/quick-workflow",
+              "en/introduction/custom-workflow"
+            ]
+          },
+          {
+            "group": "Usage Guide",
+            "pages": [
+              "en/usage/clone-a-video",
+              {
+                "group": "Content Creation",
+                "pages": [
+                  {
+                    "group": "Write and Check Content",
+                    "pages": [
+                      "en/usage/create-content/rewrite-content",
+                      "en/usage/create-content/keep-content"
+                    ]
+                  },
+                  "en/usage/create-content/refine-content",
+                  "en/usage/create-content/review-configuration"
+                ]
+              },
+              "en/usage/review-character",
+              {
+                "group": "Video Editing",
+                "pages": [
+                  {
+                    "group": "Scene Editing",
+                    "pages": [
+                      "en/usage/video-editor/edit-scene/image",
+                      "en/usage/video-editor/edit-scene/video"
+                    ]
+                  },
+                  "en/usage/video-editor/edit-caption",
+                  "en/usage/video-editor/edit-background-music",
+                  "en/usage/video-editor/edit-audio-effects",
+                  "en/usage/video-editor/edit-video-effect",
+                  "en/usage/video-editor/edit-video-scene-effect",
+                  "en/usage/video-editor/edit-video-transition",
+                  "en/usage/video-editor/edit-watermark",
+                  "en/usage/video-editor/calculate-video-cost",
+                  "en/usage/video-editor/video-info",
+                  "en/usage/video-editor/regenerate-media"
+                ]
+              },
+              {
+                "group": "Video Publishing",
+                "pages": [
+                  "en/usage/publish-video/export-video",
+                  "en/usage/publish-video/publish-youtube",
+                  "en/usage/publish-video/publish-tiktok",
+                  "en/usage/publish-video/thumbnail-editor"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Payment",
+            "pages": [
+              "en/payment/credit-system",
+              "en/payment/payment-packages",
+              "en/payment/check"
+            ]
+          },
+          {
+            "group": "Partner Program",
+            "pages": [
+              "en/partners/affiliate-program",
+              "en/partners/agent-program"
+            ]
+          },
+          {
+            "group": "Tutorial Videos",
+            "pages": ["en/tutorials/tutorial-videos"]
+          }
+        ]
+      },
+      {
+        "version": "Vietnamese",
+        "groups": [
+          {
+            "group": "Giới thiệu chung",
+            "pages": [
+              {
+                "group": "Vipro Studio",
+                "pages": [
+                  "vi/introduction/vipro-studio/introduction",
+                  "vi/introduction/vipro-studio/webapp",
+                  "vi/introduction/vipro-studio/app"
+                ]
+              },
+              "vi/introduction/quick-workflow",
+              "vi/introduction/custom-workflow"
+            ]
+          },
+          {
+            "group": "Hướng dẫn sử dụng",
+            "pages": [
+              "vi/usage/clone-a-video",
+              {
+                "group": "Tạo nội dung",
+                "pages": [
+                  {
+                    "group": "Viết và kiểm tra nội dung",
+                    "pages": [
+                      "vi/usage/create-content/rewrite-content",
+                      "vi/usage/create-content/keep-content"
+                    ]
+                  },
+                  "vi/usage/create-content/refine-content",
+                  "vi/usage/create-content/review-configuration"
+                ]
+              },
+              "vi/usage/review-character",
+              {
+                "group": "Chỉnh sửa video",
+                "pages": [
+                  {
+                    "group": "Chỉnh sửa phân cảnh",
+                    "pages": [
+                      "vi/usage/video-editor/edit-scene/image",
+                      "vi/usage/video-editor/edit-scene/video"
+                    ]
+                  },
+                  "vi/usage/video-editor/edit-caption",
+                  "vi/usage/video-editor/edit-background-music",
+                  "vi/usage/video-editor/edit-audio-effects",
+                  "vi/usage/video-editor/edit-video-effect",
+                  "vi/usage/video-editor/edit-video-scene-effect",
+                  "vi/usage/video-editor/edit-video-transition",
+                  "vi/usage/video-editor/edit-watermark",
+                  "vi/usage/video-editor/calculate-video-cost",
+                  "vi/usage/video-editor/video-info",
+                  "vi/usage/video-editor/regenerate-media"
+                ]
+              },
+              {
+                "group": "Đăng tải video",
+                "pages": [
+                  "vi/usage/publish-video/export-video",
+                  "vi/usage/publish-video/publish-youtube",
+                  "vi/usage/publish-video/publish-tiktok",
+                  "vi/usage/publish-video/thumbnail-editor"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Thanh toán",
+            "pages": [
+              "vi/payment/credit-system",
+              "vi/payment/payment-packages",
+              "vi/payment/check"
+            ]
+          },
+          {
+            "group": "Chương trình đối tác",
+            "pages": [
+              "vi/partners/affiliate-program",
+              "vi/partners/agent-program"
+            ]
+          },
+          {
+            "group": "Video hướng dẫn",
+            "pages": ["vi/tutorials/tutorial-videos"]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/logo.png",
+    "dark": "/logo/logo.png"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Vipro",
+      "href": "https://app.vipro.studio"
+    }
+  },
+  "footer": {
+    "socials": {
+      "facebook": "https://www.facebook.com/profile.php?id=61570945504404",
+      "linkedin": "https://www.linkedin.com/company/vipro-studio/"
+    }
+  }
+}
