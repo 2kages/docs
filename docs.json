@@ -97,7 +97,12 @@
           },
           {
             "group": "Tutorial Videos",
-            "pages": ["en/tutorials/tutorial-videos"]
+            "pages": [
+              "en/video-tutorial/full-quick-workflow",
+              "en/video-tutorial/download-vipro-pc-to-export-video",
+              "en/video-tutorial/create-stock-video",
+              "en/video-tutorial/create-animation-video"
+            ]
           }
         ]
       },
@@ -188,7 +193,12 @@
           },
           {
             "group": "Video hướng dẫn",
-            "pages": ["vi/tutorials/tutorial-videos"]
+            "pages": [
+              "vi/video-tutorial/create-animation-video",
+              "vi/video-tutorial/create-stock-video",
+              "vi/video-tutorial/download-vipro-pc-to-export-video",
+              "vi/video-tutorial/full-quick-workflow"
+            ]
           }
         ]
       }
