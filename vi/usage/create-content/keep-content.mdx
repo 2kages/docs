@@ -1,0 +1,82 @@
+---
+title: Sử dụng nội dung có sẵn
+description: "Hướng dẫn sử dụng Vipro Studio với nội dung có sẵn"
+---
+
+Ngoài việc sử dụng AI để viết lại nội dung kịch bản, bạn hoàn toàn có thể sử dụng một kịch bản có sẵn để tạo video với Vipro Studio.
+
+### Màn hình tạo kịch bản
+
+<img
+  src='/vi/images/usage/create-content/keep-content.jpeg'
+  alt='Keep Content UI'
+  className='rounded-lg'
+/>
+
+Màn hình giữ kịch bản của Vipro Studio có 2 phần chính
+
+- Cách phát triển nội dung: Bạn có 2 lựa chọn đó là **Giữ nguyên kịch bản** và **Phát triển với AI**.
+  Hãy lựa chọn **Giữ nguyên kịch bản** để Vipro Studio sử dụng kịch bản của bạn để tạo video.
+- Sau đó hãy nhập kịch bản video của bạn vào để bắt đầu tạo kịch bản với Vipro nhé.
+
+Từ phiên bản _1.3_, Vipro Studio đã cung cấp cho bạn một số tính năng nâng cao trong màn hình tạo kịch bản
+
+- Bạn hoàn toàn có thể chia video thành nhiều chương khác nhau bằng cách thêm `---` vào kịch bản
+- Bạn có thể tạo một khoảng thời gian 1 giây đợi giữa các phần của video bằng cách thêm `...` vào kịch bản
+- Chú ý:
+  - Việc chia kịch bản thành nhiều phần khác nhau sẽ tốn kim cương hơn do Vipro Studio cần phải tạo nhiều file audio sau đó ghép nối thủ công.
+  - Tránh việc lạm dụng `...` vì chi phí sẽ tăng lên và nếu nội dung quá ngắn việc tạo âm thanh sẽ không chính xác
+
+Ví dụ:
+
+```
+Đây là nội dung chương một
+---
+Đây là nội dung chương hai
+...
+Chương hai còn có thêm một dòng nữa
+Bạn cũng có thể thêm ... ở giữa đoạn văn. Khi thêm như vậy sẽ không tốn thêm kim cương.
+```
+
+Với ví dụ trên, Vipro Studio sẽ tạo 3 file audio khác nhau:
+
+Audio 1:
+
+```
+Đây là nội dung chương một
+```
+
+Audio 2:
+
+```
+Đây là nội dung chương hai
+```
+
+Audio 3:
+
+```
+Chương hai còn có thêm một dòng nữa
+Bạn cũng có thể thêm ... ở giữa đoạn văn. Khi thêm như vậy sẽ không tốn thêm kim cương.
+```
+
+Khi ghép 3 file lồng tiếng này lại với nhau, Vipro Studio sẽ tự động thêm 1 giây đợi ở giữa 2 file theo thứ tự như sau
+
+```
+<Audio 1> <1 giây nghỉ> <Audio 2> <1 giây nghỉ> <Audio 3>
+```
+
+Chi phí sẽ được tính thành
+3 lần tạo âm thanh, mỗi lần tạo sẽ theo giá của dịch vụ lồng tiếng
+
+### Kiểm tra lại kịch bản của video
+
+Sau khi nhập đầy đủ nội dung video, bạn hãy ấn vào nút **Tạo video mới** nhé.
+
+Khi bạn dùng **Khởi đầu nhanh** để tạo video, Vipro Studio sẽ thu phí 2 kim cương xanh cho 200 từ nội dung. Số kim cương này
+sẽ được Vipro sử dụng để xác định nhân vật, phân chia phân cảnh, tạo image prompt, và tạo sẵn thông tin youtube cho video.
+
+<img
+  src='/vi/images/usage/create-content/review-keep-content.jpeg'
+  alt='Review Keep Content UI'
+  className='rounded-lg'
+/>

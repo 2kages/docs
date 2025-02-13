@@ -1,0 +1,81 @@
+---
+title: Using Existing Content
+description: "Guide to using Vipro Studio with existing content"
+---
+
+Besides using AI to rewrite script content, you can also use an existing script to create videos with Vipro Studio.
+
+### Script Creation Screen
+
+<img
+  src='/en/images/usage/create-content/keep-content.jpeg'
+  alt='Keep Content UI'
+  className='rounded-lg'
+/>
+
+The script retention screen in Vipro Studio has 2 main parts:
+
+- Content development method: You have 2 choices - **Keep Original Script** and **Develop with AI**.
+  Choose **Keep Original Script** to have Vipro Studio use your script to create the video.
+- Then enter your video script to start creating the script with Vipro.
+
+From version _1.3_, Vipro Studio has provided some advanced features in the script creation screen:
+
+- You can divide the video into different chapters by adding `---` to the script
+- You can create a 1-second pause between video parts by adding `...` to the script
+- Note:
+  - Dividing the script into different parts will cost more diamonds as Vipro Studio needs to create multiple audio files and then manually join them.
+  - Avoid overusing `...` as costs will increase and if the content is too short, audio creation may not be accurate
+
+Example:
+
+```
+This is chapter one content
+---
+This is chapter two content
+...
+Chapter two has one more line
+You can also add ... in the middle of a paragraph. Adding it this way won't cost extra diamonds.
+```
+
+With the above example, Vipro Studio will create 3 different audio files:
+
+Audio 1:
+
+```
+This is chapter one content
+```
+
+Audio 2:
+
+```
+This is chapter two content
+```
+
+Audio 3:
+
+```
+Chapter two has one more line
+You can also add ... in the middle of a paragraph. Adding it this way won't cost extra diamonds.
+```
+
+When combining these 3 voice-over files together, Vipro Studio will automatically add 1 second of pause between files in the following order:
+
+```
+<Audio 1> <1 second pause> <Audio 2> <1 second pause> <Audio 3>
+```
+
+The cost will be calculated as
+3 times the audio creation, each creation will be charged according to the voice-over service price
+
+### Review Your Video Script
+
+After entering the complete video content, click the **Create New Video** button.
+
+When you use **Quick Start** to create a video, Vipro Studio will charge 2 blue diamonds per 200 words of content. These diamonds will be used by Vipro to identify characters, divide scenes, create image prompts, and prepare YouTube information for the video.
+
+<img
+  src='/en/images/usage/create-content/review-keep-content.jpeg'
+  alt='Review Keep Content UI'
+  className='rounded-lg'
+/>
