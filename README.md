@@ -3,6 +3,7 @@
 ## Releases
 
 - 2025/02/10 - Initial release
+- 2025/02/13 - English docs
 
 ## Features
 
