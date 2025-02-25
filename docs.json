@@ -77,7 +77,9 @@
                   "en/usage/publish-video/publish-tiktok",
                   "en/usage/publish-video/thumbnail-editor"
                 ]
-              }
+              },
+              "en/usage/update-software",
+              "en/usage/help-library"
             ]
           },
           {
@@ -173,7 +175,9 @@
                   "vi/usage/publish-video/publish-tiktok",
                   "vi/usage/publish-video/thumbnail-editor"
                 ]
-              }
+              },
+              "vi/usage/update-software",
+              "vi/usage/help-library"
             ]
           },
           {
