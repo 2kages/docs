@@ -47,6 +47,7 @@
                 ]
               },
               "en/usage/review-character",
+              "en/usage/create-novoiceover-video",
               {
                 "group": "Video Editing",
                 "pages": [
@@ -58,6 +59,7 @@
                     ]
                   },
                   "en/usage/video-editor/edit-caption",
+                  "en/usage/video-editor/edit-custom-layers",
                   "en/usage/video-editor/edit-background-music",
                   "en/usage/video-editor/edit-audio-effects",
                   "en/usage/video-editor/edit-video-effect",
@@ -145,6 +147,7 @@
                 ]
               },
               "vi/usage/review-character",
+              "vi/usage/create-novoiceover-video",
               {
                 "group": "Chỉnh sửa video",
                 "pages": [
@@ -156,6 +159,7 @@
                     ]
                   },
                   "vi/usage/video-editor/edit-caption",
+                  "vi/usage/video-editor/edit-custom-layers",
                   "vi/usage/video-editor/edit-background-music",
                   "vi/usage/video-editor/edit-audio-effects",
                   "vi/usage/video-editor/edit-video-effect",
