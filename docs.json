@@ -68,7 +68,8 @@
                   "en/usage/video-editor/edit-watermark",
                   "en/usage/video-editor/calculate-video-cost",
                   "en/usage/video-editor/video-info",
-                  "en/usage/video-editor/regenerate-media"
+                  "en/usage/video-editor/regenerate-media",
+                  "en/usage/video-editor/lipsync-avatar"
                 ]
               },
               {
@@ -168,7 +169,8 @@
                   "vi/usage/video-editor/edit-watermark",
                   "vi/usage/video-editor/calculate-video-cost",
                   "vi/usage/video-editor/video-info",
-                  "vi/usage/video-editor/regenerate-media"
+                  "vi/usage/video-editor/regenerate-media",
+                  "vi/usage/video-editor/lipsync-avatar"
                 ]
               },
               {
