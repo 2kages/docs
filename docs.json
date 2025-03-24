@@ -31,7 +31,6 @@
           {
             "group": "Usage Guide",
             "pages": [
-              "en/usage/clone-a-video",
               {
                 "group": "Content Creation",
                 "pages": [
@@ -81,6 +80,8 @@
                   "en/usage/publish-video/thumbnail-editor"
                 ]
               },
+              "en/usage/clone-a-video",
+              "en/usage/spy-a-youtube-channel",
               "en/usage/update-software",
               "en/usage/help-library"
             ]
@@ -125,7 +126,6 @@
           {
             "group": "Hướng dẫn sử dụng",
             "pages": [
-              "vi/usage/clone-a-video",
               {
                 "group": "Tạo nội dung",
                 "pages": [
@@ -175,6 +175,8 @@
                   "vi/usage/publish-video/thumbnail-editor"
                 ]
               },
+              "vi/usage/clone-a-video",
+              "vi/usage/spy-a-youtube-channel",
               "vi/usage/update-software",
               "vi/usage/help-library"
             ]
